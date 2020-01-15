@@ -2,25 +2,19 @@
 <html>
 <head>
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
-<style>
+<meta charset="utf-8">
+<style type="text/css">
 body {
 font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 font-size: 12pt;
 padding: 0px;
 margin: 0px;
-color: #444;
-}
-article {
-color: #444;
 }
 a {
 color: #333;
 }
 a:hover {
 color: #159957;
-}
-h1,h2,h3,h4 {
-opacity: 0.8;
 }
 .width600 {
 width: 550px;
@@ -32,17 +26,31 @@ background-color: white;
 border-radius: 5px;
 margin-bottom: 20px;
 }
-footer {
-opacity: 0.8;
-}
 footer p {
 font-size: 85%;
 }
 h2 {
-opacity: 0.5;
+color: #aaa;
+}
+h3 {
+color: #888;
+margin-top: 30px;
+margin-bottom: 5px;
+}
+h4 {
+margin-top: 0px;
+color: #666;
 }
 hr {
-opacity: 0.3;
+border: 0;
+height: 1px;
+background: #eee;
+margin: 30px 0;
+}
+.logo-box {
+background-color: #ddd; 
+border-top-right-radius: 50%; 
+border-top-left-radius: 50%;
 }
 </style>
 </head>
@@ -53,7 +61,7 @@ opacity: 0.3;
     <img src="cid:img@cloud.png" width="550px" style="border-radius: 5px"/>
 
     <!-- begin newsletter-->
-    <article style="padding: 0 20px">
+    <div style="padding: 0 20px; color: #444">
 
 <p>
 Welcome to the brainlife.io newsletter!
@@ -180,12 +188,15 @@ Don't forget, if you run into any trouble on brainlife.io or want to ask a quest
 You can also <a href="mailto:brlife@iu.edu">contact us</a> with any announcements you'd like shared in future newsletters, including about your contributions to brainlife.io, any work you've published using brainlife.io, or even your major wins with the platform.
 </p>
 
-</article>
+</div>
 
+<br>
+<br>
+<br>
     <table style="border-collapse: collapse; width: 100%;">
     <tr>
         <td></td>
-        <td rowspan="2" style="background-color: #ddd; border-top-right-radius: 50%; border-top-left-radius: 50%;" height="100px">
+        <td rowspan="2" class="logo-box" height="100px">
             <img src="cid:img@logo.png" width="100px" style="border-radius: 5px;"/>
             <!--
             <img src="img/logo.png" width="100px" style="border-radius: 5px;"/>
@@ -204,7 +215,7 @@ You can also <a href="mailto:brlife@iu.edu">contact us</a> with any announcement
     </table>
 </div>
 
-<footer style="text-align: center;">
+<center style="color: #666">
 <div class="width600">
     <a href="https://brainlife.io">brainlife.io</a> | <a href="https://brainlife.io/plab">Pestilli Lab</a> | <a href="https://pti.iu.edu">Indiana University PTI</a> | <a href="https://twitter.com/BrainLifeio">Twitter</a>
 <p>
@@ -212,7 +223,7 @@ To update notification preferences, visit the <a href="https://brainlife.io/sett
 </p>
 <br>
 </div>
-</footer>
+</center>
 
 </body>
 </html>

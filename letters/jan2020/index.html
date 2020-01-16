@@ -136,7 +136,11 @@ Do you have tractography that you want to do a quick quality check on? Maybe you
 
 <h3>fMRIPrep</h3>
 <p>
-This app runs fMRIPrep on the brainlife.io interface. Its pipelines process T1w, T2w, fMRI, and fieldmaps by calling a series of functions from FSL, FreeSurfer, ANTs, and nipy. It applies these tools in a principled way designed to handle common imaging artifacts and biases, and it outputs processed anatomical and functional images for further analysis.
+fMRIPrep is a collection of state-of-the-art functional MRI processing pipelines developed by Stanford's <a href="https://poldracklab.stanford.edu">Poldrack Lab.</a> This toolbox will preprocess functional data through routines for brain extraction and motion estimation, while correcting for geometric distortions and slice timing and aligning to a number of standard output spaces. We've incorporated this powerful processing stream into brainlife.io so you can obtain preprocessed fMRI data. After running this app, you'll have access to cleaned-up functional data for use in your downstream statistical analyses.
+</p>
+        
+<p>
+For those interested in collecting functional connectivity matrices, check out the companion app: <a href="https://brainlife.io/app/5c720cf63e2f2c0030a23486">fMRI to Connectivity Matrices.<a>
 </p>
 
 <a href="https://brainlife.io/app/5c61c69f14027a01b14adcb3">See the App</a>

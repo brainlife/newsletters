@@ -1,0 +1,268 @@
+<!doctype html>
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+<meta charset="utf-8">
+<style type="text/css">
+body {
+font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 12pt;
+padding: 0px;
+margin: 0px;
+}
+a {
+color: #333;
+}
+a:hover {
+color: #159957;
+}
+.width600 {
+width: 550px;
+margin-left: auto;
+margin-right: auto;
+}
+.main {
+background-color: white;
+border-radius: 5px;
+margin-bottom: 20px;
+}
+footer p {
+font-size: 85%;
+}
+h2 {
+color: #aaa;
+}
+h3 {
+color: #888;
+margin-top: 30px;
+margin-bottom: 5px;
+}
+h4 {
+margin-top: 0px;
+color: #666;
+}
+hr {
+border: 0;
+height: 1px;
+background: #eee;
+margin: 30px 0;
+}
+.logo-box {
+background-color: #ddd; 
+border-top-right-radius: 50%; 
+border-top-left-radius: 50%;
+}
+</style>
+</head>
+
+<body style="background-color: #eee;">
+<br>
+<div class="width600 main">
+    <img src="cid:img@cloud.png" width="550px" style="border-radius: 5px"/>
+
+    <!-- begin newsletter-->
+    <div style="padding: 0 20px; color: #444">
+
+<p>
+March 4, 2020 | Latest brainlife.io news
+</p>
+
+<hr>
+
+<h2>Featured users</h2>
+
+<p>
+Find out who recently joined your brainlife.io community.
+</p>
+
+
+<h3>🧑 Bradley Taber-Thomas (@Bradley Taber-Thomas on Slack)</h3>
+<h4>
+Visiting Assistant Professor, State University of New York College at Geneseo
+</h4>
+<p>
+Bradley’s Social-Emotional Development Lab (SED Lab) is beginning to analyze publicly available fMRI datasets. The lab of undergrads is excited to have access to online data storage, easy-to-use analysis pipelines, and high-performance computing infrastructure through brainlife.io.
+</p>
+
+<h3>🧑 Ulyhash Yan (@Ulyhash Yang)</h3>
+<h4>
+Graduate student in computer science, University of Hong Kong 
+</h4>
+<p>
+Ulyhash is a beginner in neuroimaging and preprocessing and wants to learn how to work with any tools in this area. Ulyhash found brainlife.io through OpenNeuro and was excited to take advantage of the platform’s advanced computing power and to learn more about reproducible neuroscience.
+</p>
+
+<h3>🧑 Fred Azizi (@Fred)</h3>
+<h4>
+PhD student in statistics, Indiana University Bloomington
+</h4>
+<p>
+Fred is one of the many brainlife.io users who recently joined the platform as part of the Franco Pestilli’s Lab in Cognitive and Computational Neuroscience -- Fred joined to learn how to use the platform. 
+</p>
+
+<hr>
+
+<h2>Latest brainlife.io news</h2>
+
+<h3>Franco Pestilli awarded prestigious Microsoft Investigator Fellowship to advance brainlife.io</h3>
+<p>
+Brainlife.io Project Director <a href="https://brainlife.github.io/plab/l">Franco Pestilli</a> was selected as one of 15 <a href="https://www.microsoft.com/en-us/research/blog/microsoft-investigator-fellows-accelerate-scientific-and-teaching-impact-with-azure-cloud-computing/">Microsoft Investigator Fellows</a> among 290 applicants. This fellowship will empower the brainlife.io team with Microsoft Azure resources, as well as provide $200,000 in support across two years, to advance the platform.
+</p>
+
+<a href="https://news.iu.edu/stories/2020/02/iub/releases/27-neuroscientist-pestilli-microsoft-investigator-fellowship-cloud-computing.html">Learn more</a>
+
+<h3>Preprint out for a segmentation tool integrated within brainlife.io</h3>
+<p>
+While automatic segmentation methods have improved, they still aren’t high quality, especially when it comes to datasets with diverse characteristics. Classifyber, developed by <a href="https://www.researchgate.net/profile/Giulia_Berto"> Giulia Bertò</a> and a team of close collaborators, solves this. Classifyber is a supervised streamline-based app that performs automatic bundle segmentation by learning from example bundles that are already segmented.
+</p>
+
+<a href="https://www.biorxiv.org/content/10.1101/2020.02.10.942714v1">Read the preprint now.</a>
+
+<p>
+There are two briainlife.io apps connected with the preprint:
+<p>
+    
+<h4>Classifyber</h4>
+<p>This app is based on binary linear classification, which simultaneously combines information from bundle geometries, connectivity patterns, and atlases. Plus, it can deal with different bundle sizes, tracking algorithms, and dMRI data qualities.
+</p>    
+
+<a href="https://brainlife.io/app/5d6fcae439867216d8496442">Try the app</a>
+
+<h4>Classifyber - segmentation</h4>
+<p>This app implements only the test phase of Classifyber and runs Classifyber as a pre-trained bundle segmentation method.
+</p>    
+
+<a href="https://brainlife.io/app/5df937ff32bff0566ae23cff">Try the app</a>
+        
+<h3>New brainlife.io user profile</h3>
+<p>
+We are working to build a stronger community on brainlife.io. An important step in doing this is filling out your brainlife.io profile. To fill yours out, go to the "settings" and then "profile" page.
+</p>
+
+<a href="https://brainlife.io/settings">Create your profile</a>
+        
+<hr>
+
+<h2>Upcoming brainlife.io events</h2>
+
+<h3>Making Open Neuroscience Infrastructures Interoperable 3.0</h3>
+<p>
+March 18 | Montreal
+</p>
+
+<p>
+As neuroinformatics infrastructures become increasingly important in research with big and open neuroscience data, this conference will discuss how to make these infrastructures interoperable. At 3 p.m., brainlife’s Franco Pestilli will present “Connecting major open data projects with computational resources using Brainlife.io.” 
+</p>
+
+<a href="https://www.mcgill.ca/neuro/channels/event/making-open-neuroscience-infrastructures-interoperable-30-303671">Event info</a>
+
+<h3>2020 Organization for Human Brain Mapping</h3>
+<p>
+June 26-30 | Montreal
+</p>
+
+<p>
+Come find the brainlife.io team at OHBM! We will have a booth at the conference entrance where you can chat with our team about the platform. There will also be a brainlife.io software demonstration at the conference. More info to come!
+</p>
+
+<a href="https://www.humanbrainmapping.org/i4a/pages/index.cfm?pageid=3947">Event info</a>
+        
+<hr>
+
+<h2>Featured jobs & learning opportunities</h2>
+
+<h3>Apply now: Student developers working in deep learning at brainlife.io</h3>
+<p>
+Do you want to work with the brainlife.io team this summer? We are hiring undergraduates or graduate students who are interested in developing apps on brainlife.io as part of an internship or fellowship. You must have experience in neuroimaging research. You can work on-campus in Franco Pestilli's lab or remotely. 
+</p>
+
+<a href="mailto:franpest@indiana.edu">Contact Franco for more details</a>
+
+<h3>Apply now: Statistics/Neuroimaging postdoc positions in Department of Statistics at Indiana University
+</h3>
+<p>
+<a href="https://mandymejia.com/">Dr. Mandy Meija</a> is accepting applications on a rolling basis for postdocs with computational neuroimaging backgrounds. Fellows will work in a cross-disciplinary team with researchers at Johns Hopkins University, the Kennedy Krieger Institute, CUNY, and the University of Utah. 
+</p>
+
+<a href="https://mandymejia.com/945-2/">Apply now</a>
+
+<h3>DIPY Workshop</h3>  
+<p>
+March 16-20 | Indiana University Bloomington 
+</p>
+
+<p>
+Run through <a href="https://dipy.org/">DIPY</a> tutorials at the novice, intermediate, or advanced level and analyze your own data with more than 15 DIPY developers who will be on-site to help you.
+</p>
+
+<p>        
+Deadline to Register is March 10.
+</p>
+
+<a href="https://workshop.dipy.org/#Home">Event info</a>
+
+<h3>Midwest Undergraduate Cognitive Science Conference (MUCSC)</h3>
+<p>
+April 4 | Indiana University Bloomington</p>
+<p>
+
+<p>
+This conference is an opportunity for undergraduates to practice their research presentation skills through poster sessions and live talks related to cognitive science.
+</p>
+        
+<p>        
+Submit your abstract by March 6.
+</p>
+
+<a href="http://mucsc.info/#submit">Event info</a>      
+                                        
+<hr>
+
+<h2>Questions or news to share?</h2>
+<p>
+Do you have a brarinlife.io app, paper, project, or success story -- or a job or learning opportunity -- you want us to share with the rest of the community? <a href="mailto:smcgavin@iu.edu">Contact us</a> to submit any announcements! 
+</p>      
+    
+<p>
+Don't forget, if you run into any trouble on brainlife.io or want to ask a question about the platform, message Soichi (@hayashis) or Stephanie (@Steph) on Slack.
+</p>
+
+</div>
+
+<br>
+<br>
+<br>
+    <table style="border-collapse: collapse; width: 100%;">
+    <tr>
+        <td></td>
+        <td rowspan="2" class="logo-box" height="100px">
+            <img src="cid:img@logo.png" width="100px" style="border-radius: 5px;"/>
+            <!--
+            <img src="img/logo.png" width="100px" style="border-radius: 5px;"/>
+            -->
+        </td>
+        <td></td>
+    </tr>
+    <tr style="background-color: #ddd;">
+        <td width="50%" style="border-bottom-left-radius: 8px" height="40">
+            &nbsp;
+        </td>
+        <td width="50%" style="border-bottom-right-radius: 8px" height="40">
+            &nbsp;
+        </td>
+    </tr>
+    </table>
+</div>
+
+<center style="color: #666">
+<div class="width600">
+    <a href="https://brainlife.io">brainlife.io</a> | <a href="https://brainlife.io/plab">Pestilli Lab</a> | <a href="https://pti.iu.edu">Indiana University PTI</a> | <a href="https://twitter.com/BrainLifeio">Twitter</a>
+<p>
+To update notification preferences, visit the <a href="https://brainlife.io/settings">Notification Settings</a> page.
+</p>
+<br>
+</div>
+</center>
+
+</body>
+</html>
